@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AC wave harmonic calculator">
+    <meta name="keywords" content="frequency, wave, waveform, harmonic, calculator">
+    <!--Style Sheets-->
+    <link rel="stylesheet" href="css/style-harmonic-calc.css" media="screen">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiko&family=Arima+Madurai&family=Black+Ops+One&family=Farsan&family=Lalezar&family=Mogra&family=Rakkas&family=Rasa&family=Shrikhand&family=Suez+One&family=Yatra+One&display=swap"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap"
+      rel="stylesheet">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+    <title>Harmonic Calculator</title>
+  </head>
+
+  <body>
+    <main>
+      <div id="wrapper">
+        <h2><a href="harmonic-calculator.html">Harmonic Calculator</a></h2>
+        <a href="harmonic-calculator.html"><img class="main-img"
+            src="images/sound-waveform.jpg"
+            alt="rainbow spectrum of ac waveforms"></a>
+        <section class="input">
+          <form id="harmonic_calculator_form">
+            <label for="fundamentalFrequency">Frequency (20 - 10,000
+              Hz) </label>
+            <input id="fundamentalFrequency" type="number" min="20" max="10000"
+              step="0.001">
+            <label for="numberOfHarmonics">Harmonics (1-100) </label>
+            <input id="numberOfHarmonics" name="numberOfHarmonics"
+              type="number" min="1" max="100">
+            <input id="submit-button" type="submit" value="Calculate">
+          </form>
+        </section>
+
+        <section id="output">
+          <p class="informational-blurb">
+            A <a href="https://en.wikipedia.org/wiki/Harmonic" target="_blank">harmonic</a>
+            is a wave with a frequency that is a positive integer
+            multiple of the fundamental frequency, the frequency of the
+            original periodic signal. The original signal is also called the
+            1st harmonic, the other harmonics are known as higher harmonics
+            (2nd harmonic, 3rd harmonic, and so on...).
+          </p>
+        </section>
+      </div>
+    </main>
+  </body>
+
+  <pre>
+    <script src="js/musicalNotesArray.js"></script>
+    <script src="js/harmonicCalculator.js"></script>
+  </pre>
+</html>

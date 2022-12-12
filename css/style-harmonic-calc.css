@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  background-color: #71A7B9;
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-bottom: 2%;
+  width: 100%;
+}
+
+body {
+  background-color: #A8CEDB;
+}
+
+a {
+  color: #000000;
+}
+
+h1, h2, h3 {
+  color: #000000;
+  font-family: 'Black Ops One', cursive;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+  margin: 0 auto 1%;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 0.9em;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-family: 'Black Ops One', cursive;
+  font-size: 1.3em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input input {
+  display: block;
+  font-size: 1.5em;
+  margin: 0 auto 1%;
+  width: 140px;
+}
+
+.main-img {
+  display: block;
+  margin: 0 auto 1%;
+  width:100%;
+}
+
+#submit-button {
+  background-color: #A8CEDB;
+  border: solid 1px #000000;
+  color: #000000;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0 auto 1%;
+  text-align: center;
+  width: 190px;
+}
+
+#reset-button {
+  background-color: #A8CEDB;
+  border: solid 1px #000000;
+  font-family: 'Playfair Display SC', serif;
+  padding: 0 0.2%;
+  text-decoration: none;
+}
+
+#submit-button:hover, #reset-button:hover {
+  background-color: #8eb4c1;
+  cursor: pointer;
+}
+
+#output {
+  display: block;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.informational-blurb {
+  font-family:'Times New Roman', Times, serif;
+}
+
+/* Tablet screen sizes */
+@media only screen and (min-width: 768px) {
+  h3 {
+    font-size: 1.1em;
+  }
+
+  label {
+    font-size: 1.5em;
+  }
+
+  .main-img {
+    width: 600px;
+  }
+
+  #output {
+    font-size: 1.7em;
+  }
+
+}
+
+/* Laptop screen sizes */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Extra Large screen sizes */
+@media only screen and (min-width: 1600px) {
+  #wrapper {
+    width: 70%;
+  }
+
+}
