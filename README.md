@@ -1,14 +1,16 @@
-# harmonicCalculator by Jesse Pollock
+# harmonicCalculator
 
-This is my project for Programming Fundamentals class Fall 2022
+This was a project for my programming fundamentals class
 
-The project combines HTML, CSS, and JavaScript
+It uses HTML, CSS, and JavaScript
 
 JS concepts demostrated include the following:
-* Functions
-* IF/ELSEIF/ELSE statements
-* FOR loops
-* WHILE loops
-* Nested logic
-* Separating Input, Processing, and Output
+* functions
+* if/else statements
+* for loops
+* while loops
+* nested logic
+* separating input, processing, and output
+
+Fun Fact: this was also my first readme written with Markdown syntax
 
